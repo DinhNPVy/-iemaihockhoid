@@ -4,20 +4,19 @@ function showscore()
     let literature = +document.getElementById('literature').value;
     let english = +document.getElementById('english').value;
     let khuvuc = +document.getElementById('khuvuc').value;
-    let score = "";
-    
-
+    let score = 0;
+    let result = 0;
     switch(khuvuc){
-        case "KV1":
+        case 1:
             score = 0.75;
             break;
-        case "KV2":
+        case 2:
             score = 0.5;
             break;
-        case "KV2-NT":
+        case 3:
             score = 0.25;
             break;
-        case "KV3":
+        case 4:
             score = 0;
             break;
         
