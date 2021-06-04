@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Điểm Đại Học Khối D</title>
+</head>
+<body>
+    <div class="container">
+        <label for=""><span></span>Môn Toán</label>
+        <input type="text" id="math">
+        <label for=""><span></span>Môn Toán</label>
+        <input type="text" id="literature">
+        <label for=""><span></span>Môn Toán</label>
+        <input type="text" id="english">
+        <select id="khuvuc">
+            <option value="0.75" selected>KV1</option>
+            <option value="0.5">KV2</option>
+            <option value="0.25">KV2-NT</option>
+            <option value="0">KV3</option>
+        </select>
+        <button onclick="showscore()">Tính điểm</button>
+        <h3 id="result"></h3>
+        <script src="app.js"></script>
+ </div>
+</body>
+</html>
